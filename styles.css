@@ -1,0 +1,202 @@
+body{
+  background-color: #2C3639;
+}
+a{
+  margin: 30px;
+}
+.container{
+  position: absolute;
+  top: 500px;
+  margin-left: 300px;
+  transform: translate(-50%,-50%);
+}
+.button{
+  position: relative;
+  text-align: center;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: #000;
+  font-family: poppins;
+  font-weight:50;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 1.5s;
+}
+.button:hover{
+  box-shadow: 0 2px 0 white inset,0 2px 7px 0 white;
+}
+.heading{
+  padding-top: 3%;
+  padding-left: 2%;
+  color: #f2f2f2;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 40px;
+  font-weight:bold;
+  max-width: 600px;
+}
+.container1{
+
+  height: 400px;
+  width: 800px;
+  position: relative;
+  background-color: white;
+  margin-top: 600px;
+  margin-left: 550px;
+
+}
+.navigation{
+
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.restaurant-name{
+  width: 20px;
+  margin-left: 100px;
+  color: #C2976A;
+  font-family: 'Oswald';font-size: 18px;
+}
+.image{
+  transition: all 0.4s ease-in-out 0.4s;
+  margin-left:680px;
+  position: absolute;
+  top:200px;
+
+}
+.image:hover
+{
+    cursor: default;
+    transform: rotate(90deg) scale(1.5);
+    transition: all 1s ease-in-out 0.10s;
+}
+.story_image{
+  position: absolute;
+  top: 1073px;
+  margin-left: 50px;
+}
+p{
+  position: relative;
+  font-size: 40px;
+  top: 80px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.content{
+  position: absolute;
+
+  top:1170px;
+  left:600px;
+  margin-left: 80px;
+  color:black;
+  max-width: 600px;
+
+}
+
+.content p1{
+  font-size: 20px;
+}
+.Menu{
+  position: absolute;
+    top:1580px;
+    left:350px;
+    color:#72717A;
+    font-family: 'Allura';font-size: 30px;
+}
+.ourmenu p{
+  color:white;
+  position: relative;
+  margin-top: 320px;
+  margin-left: 290px;
+}
+.container2{
+  color:#9896A3;
+  max-width: 600px;
+  position: absolute;
+  top:1620px;
+  left:700px;
+  font-size: 20px;
+}
+.Dish1{
+  transition: all 0.3s ease-in-out 0s;
+   position: absolute;
+   margin-top: 100px;
+   left: 300px;
+}
+.Dish1:hover
+{
+    cursor: default;
+    transform: rotate(180deg) scale(1.5);
+    transition: all 1s ease-in-out 0.10s;
+}
+.dishname p0{
+  position: absolute;
+    top:1970px;
+    left:740px;
+    color: #C2976A;
+    font-family: "proxima-nova",sans-serif; font-size: 40px;
+}
+.dishname p1{
+  position: absolute;
+    top:2340px;
+    left:280px;
+    color: #C2976A;
+    font-family: "proxima-nova",sans-serif; font-size: 40px;
+}
+.dishname p2{
+  position: absolute;
+    top:2690px;
+    left:700px;
+    color: #C2976A;
+    font-family: "proxima-nova",sans-serif; font-size: 40px;
+}
+.Dish2{
+  transition: all 0.3s ease-in-out 0s;
+  position: absolute;
+  margin-top: 350px;
+  left: 800px;
+}
+.Dish2:hover
+{
+    cursor: default;
+    transform: rotate(180deg) scale(0.9);
+    transition: all 1s ease-in-out 0.10s;
+}
+.Dish3{
+  transition: all 0.3s ease-in-out 0s;
+   position: absolute;
+   margin-top: 800px;
+   left: 300px;
+}
+.Dish3:hover
+{
+    cursor: default;
+    transform: rotate(180deg) scale(1.2);
+    transition: all 1s ease-in-out 0.1s;
+}
+.bottom{
+  position:absolute;
+  top: 3100px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bottom p{
+  position:absolute;
+  color:black;
+  top: 170px;
+  left:460px;
+  font-size: 50px;
+}
+
+.footer-button{
+  position: absolute;
+  top: 330px;
+  margin-left: 760px;
+  transform: translate(-50%,-100%);
+}
